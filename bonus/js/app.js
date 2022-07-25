@@ -9,7 +9,14 @@ console.log('La coda dell\'array');
 const ilMioArray = [5, 9, 23, 45, 87, 34, 63, 100];
 console.log('Il mio array è composto da questo elenco di elementi: ' + ilMioArray);
 
+//creo il mio ciclo
 console.log('Gli ultimi cinque elementi dell\'elenco sono questi: ');
 for(let i=(ilMioArray.length - 1); i>=(ilMioArray.length - 5); i--) {
+    console.log(ilMioArray[i]);
+}
+
+//metodo 2
+console.log('METODO 2. Gli ultimi cinque elementi dell\'elenco sono questi: ');
+for(let i=(ilMioArray.length - 5); i < ilMioArray.length; i++) {
     console.log(ilMioArray[i]);
 }
