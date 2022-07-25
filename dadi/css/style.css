@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 15px;
+}
+
+button {
+    padding: 20px;
+    background-color: yellow;
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid red;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.dadi {
+    display: flex;
+    gap: 10px;
+    font-size: 1.2rem;
+}
+
+.numero-giocatore, .numero-computer {
+    border: 2px dashed brown;
+    padding: 5px;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+.output {
+    border: 3px solid greenyellow;
+    padding: 5px;
+    font-weight: 600px;
+    background-color: aqua;
+}
